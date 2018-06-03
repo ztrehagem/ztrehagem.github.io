@@ -1,0 +1,39 @@
+.page-profile {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+
+  +mobile() {
+    padding: 2rem 1rem;
+  }
+
+  > .panel {
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 0 12px rgb(235, 235, 235);
+    padding: 2rem;
+
+    +mobile() {
+      padding: 2rem 1rem;
+    }
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .heading {
+    font-weight: bold;
+  }
+
+  .link {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1em;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 0.8rem;
+  }
+}

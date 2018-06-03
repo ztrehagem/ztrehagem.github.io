@@ -1,0 +1,25 @@
+hover() {
+  /._layout:not(._touchdevice) {selector()}:hover {
+    {block};
+  }
+}
+
+media(query) {
+  @media query {
+    /{selector()} {
+      {block}
+    }
+  }
+}
+
+tablet() {
+  +media("screen and (max-width: 1023px)") {
+    {block}
+  }
+}
+
+mobile() {
+  +media("screen and (max-width: 767px)") {
+    {block}
+  }
+}
