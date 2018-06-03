@@ -38,7 +38,7 @@ module.exports = {
   loading: false,
   router: {
     base: '/',
-    mode: 'hash',
+    // mode: 'hash',
   },
   build: {
     publicPath: 'https://ztrehagem.github.io/',
