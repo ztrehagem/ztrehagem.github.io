@@ -1,4 +1,4 @@
-# mhz-web-5
+# ztrehagem.github.io
 
 > Nuxt.js project
 
