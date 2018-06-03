@@ -2,7 +2,7 @@ const prod = process.env.NODE_ENV == 'production';
 
 module.exports = {
   head: {
-    title: 'mhz-web-5',
+    title: 'Megahertz',
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1.0" },
@@ -37,13 +37,11 @@ module.exports = {
   ],
   loading: false,
   router: {
-    // base: '/test/',
-    base: prod ? '/mhz-web-5/' : '/',
+    base: '/',
     mode: 'hash',
   },
   build: {
-    publicPath: 'https://ztrehagem.github.io/mhz-web-5/',
-    // publicPath: 'http://megahertz.webcrow.jp/test/',
+    publicPath: 'https://ztrehagem.github.io/',
     /*
     ** Run ESLint on save
     */
