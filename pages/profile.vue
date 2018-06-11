@@ -1,7 +1,7 @@
 <template lang="pug">
 .page-profile
   .panel
-    h3.heading Shigeki Suwa (Megahertz)
+    h3.heading Shigeki Suwa
     p.
       FLASH、Java Applet、ブラウザゲー、隠しページ・・・などが跋扈していた2000年代初頭にインターネットの世界に爆誕。
       早々にHTML・CSSと出会い、今の今まで続く腐れ縁である。
@@ -37,6 +37,7 @@
         span &ensp;Qiita
     hr
     h3.heading 音屋
+    small.hn Rious, Megahertz
     p.
       トランス・ドラムンベースなど、シンセサウンドをメインとしたエレクトロニックな楽曲を得意とする。
       ボーカル編集・マスタリングなども行う。
