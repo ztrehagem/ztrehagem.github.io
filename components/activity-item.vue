@@ -17,7 +17,7 @@ export default {
   },
   filters: {
     description(paragraphs) {
-      return paragraphs && paragraphs[0] && paragraphs[0][0] || '';
+      return paragraphs && paragraphs[0] || '';
     },
     tag(tag) {
       return `#${tag}`;

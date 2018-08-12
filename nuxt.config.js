@@ -42,10 +42,8 @@ module.exports = {
   },
   build: {
     publicPath: 'https://ztrehagem.github.io/',
-    /*
-    ** Run ESLint on save
-    */
     extend (config, { isDev, isClient }) {
+      // eslint
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',
@@ -54,6 +52,15 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+
+      // yaml
+      config.module.rules.push({
+        test: /\.ya?ml$/,
+        use: [
+          { loader: 'json-loader' },
+          { loader: 'yaml-loader' },
+        ],
+      })
     }
-  }
+  },
 }

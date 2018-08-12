@@ -14,10 +14,12 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "json-loader": "^0.5.7",
     "nuxt": "^1.0.0",
     "pug": "^2.0.3",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2"
+    "stylus-loader": "^3.0.2",
+    "yaml-loader": "^0.5.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

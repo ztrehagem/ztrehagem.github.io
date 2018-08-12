@@ -8,7 +8,7 @@
     p.
       中学で吹奏楽部に入り音楽と出会うが、不運なことにボカロEDMの世界に迷い込んでしまう。
       高校から本格的にDTMをはじめ、大学ではサークルを立ち上げる。
-      現在は音楽サークル『<a class="_textlink" href="https://twitter.com/elminaL37" target="_blank">elmina</a>』
+      現在は音楽サークル『<a class="_textlink" href="https://elmina.net" target="_blank">elmina</a>』
       として楽曲制作とアルバムCDの企画・制作進行をしている。
     p.
       その傍ら、こつこつと積み重ねていたWebサイト制作の経験を活かし、インターン・アルバイトとして複数のWebサービス開発に携わってきた。
@@ -37,11 +37,11 @@
         span &ensp;Qiita
     hr
     h3.heading 音屋
-    small.hn Rious, Megahertz
+    small.hn Rious / Megahertz
     p.
       トランス・ドラムンベースなど、シンセサウンドをメインとしたエレクトロニックな楽曲を得意とする。
       ボーカル編集・マスタリングなども行う。
-      音楽サークル『<a class="_textlink" href="https://twitter.com/elminaL37" target="_blank">elmina</a>』主宰。
+      音楽サークル『<a class="_textlink" href="https://elmina.net" target="_blank">elmina</a>』主宰。
     p
       a.link(target="_blank", href="https://twitter.com/ztrehagem")
         i.fab.fa-twitter
@@ -52,6 +52,18 @@
       a.link(target="_blank", href="https://megahertz.booth.pm/")
         i.fas.fa-shopping-cart
         span &ensp;BOOTH
+    hr
+    h3.heading 研究・論文
+    dl
+      dt Liquid: A concurrent calculus with declaring first-order asynchronous functions
+      dd Trends in Functional Programming 2018 (presented on June 11, 2018)
+    dl
+      dt Liquid：非同期一階関数による並行計算体系
+      dd 情報処理学会第80回全国大会（2018年3月15日発表）
+      dd 大会奨励賞受賞
+    dl
+      dt 対話を行う分散ロボットによる迷子探索システム (クラウドネットワークロボット)
+      dd 電子情報通信学会技術研究報告 = IEICE technical report : 信学技報 117(198):2017.9.1 p.19-24
 </template>
 
 <script>

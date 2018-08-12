@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import contents from '~/assets/contents.json';
+import contents from '~/assets/contents.yml';
 import ActivityItem from '~/components/activity-item.vue';
 
 export default {
