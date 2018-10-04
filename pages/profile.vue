@@ -22,16 +22,19 @@
       個人ウェブサイト・特設サイトをはじめ、様々なWebサービス開発に携わる。
       クライアントサイド（JavaScript, CSS）を得意とする。
     p.
-      言語：JavaScript, CSS, HTML, Java, C/C++, Ruby, Go, Lisp(Scheme), Haskell
+      言語：JavaScript/TypeScript, CSS, HTML, Java, C/C++, Ruby, Go, Lisp(Scheme), Haskell
     p.
-      相棒：Vue.js, Nuxt.js, Node.js, Webpack, Docker, ...
+      相棒：Vue.js, Nuxt.js, Node.js, Docker, ...
     p
-      a.link(target="_blank", href="https://twitter.com/mhz_univ")
+      a.link(target="_blank", href="https://twitter.com/ztrehagem")
         i.fab.fa-twitter
         span &ensp;Twitter
       a.link(target="_blank", href="https://github.com/ztrehagem")
         i.fab.fa-github
         span &ensp;GitHub
+      a.link(target="_blank", href="https://gitlab.com/megahertz")
+        i.fab.fa-gitlab
+        span &ensp;GitLab
       a.link(target="_blank", href="https://qiita.com/MHz")
         i.fas.fa-pencil-alt
         span &ensp;Qiita
@@ -43,7 +46,7 @@
       ボーカル編集・マスタリングなども行う。
       音楽サークル『<a class="_textlink" href="https://elmina.net" target="_blank">elmina</a>』主宰。
     p
-      a.link(target="_blank", href="https://twitter.com/ztrehagem")
+      a.link(target="_blank", href="https://twitter.com/ztrinfo")
         i.fab.fa-twitter
         span &ensp;Twitter
       a.link(target="_blank", href="https://soundcloud.com/ztrehagem")
