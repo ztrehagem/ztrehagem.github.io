@@ -1,4 +1,19 @@
 ---
+- slug: elmina04
+  tags:
+    - produce
+    - sound
+    - mastering
+    - design
+    - web
+  title: 'elmina 04: daylight'
+  date: 2018-10
+  description:
+    - elmina コンピレーションアルバム
+    - track.3 lives, track.5 become the wind
+  img: "/img/jacket/18101-elmina-elmina04.jpg"
+  links:
+    特設サイト: https://elmina.net/products/elmn0005/
 - slug: elmina-net
   tags:
     - web
