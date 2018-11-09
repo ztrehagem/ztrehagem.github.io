@@ -35,7 +35,7 @@
       a.link(target="_blank", href="https://gitlab.com/megahertz")
         i.fab.fa-gitlab
         span &ensp;GitLab
-      a.link(target="_blank", href="https://qiita.com/MHz")
+      a.link(target="_blank", href="https://qiita.com/ztrehagem")
         i.fas.fa-pencil-alt
         span &ensp;Qiita
     hr
