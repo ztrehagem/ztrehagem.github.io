@@ -69,6 +69,47 @@
       dd 電子情報通信学会技術研究報告 = IEICE technical report : 信学技報 117(198):2017.9.1 p.19-24
 </template>
 
+<style lang="stylus" scoped>
+@require "~assets/styles/include"
+
+.page-profile
+  &
+    padding 2rem
+    display flex
+    justify-content center
+    +mobile()
+      padding 2rem 1rem
+
+  .panel
+    width 100%
+    max-width 800px
+    background-color white
+    box-shadow 0 0 12px rgb(235, 235, 235)
+    padding 2rem
+    +mobile()
+      padding 2rem 1rem
+
+  p
+    font-size 0.9rem
+
+  .heading
+    font-weight bold
+    display inline-block
+
+  .hn
+    margin-left 1em
+
+  .link
+    display inline-block
+    padding 0.2rem 0.6rem
+    margin-bottom 0.5rem
+    margin-right 1em
+    border 1px solid black
+    border-radius 3px
+    font-size 0.8rem
+</style>
+
+
 <script>
 export default {
 }

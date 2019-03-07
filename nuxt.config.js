@@ -27,7 +27,7 @@ module.exports = {
   // appearance / metadata
   loading: false,
   css: [
-    { src: '~assets/styles/index.styl', lang: 'stylus' },
+    { src: '~assets/styles/global.styl', lang: 'stylus' },
   ],
   head: {
     title: 'Megahertz',
