@@ -1,5 +1,5 @@
 <template lang="pug">
-.layout-default._layout(:class="{_touchdevice: isTouchDevice}")
+.layout-default
   head-bar.head
   nav-bar.nav
   nuxt.nuxt
@@ -13,16 +13,6 @@ export default {
   components: {
     HeadBar,
     NavBar,
-  },
-  data() {
-    return {
-      isTouchDevice: false,
-    };
-  },
-  mounted() {
-    if ('ontouchstart' in document.documentElement) {
-      this.isTouchDevice = true;
-    }
   },
 }
 </script>

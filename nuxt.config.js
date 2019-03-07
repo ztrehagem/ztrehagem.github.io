@@ -1,4 +1,34 @@
+const publicPath = process.env.PUBLIC_PATH;
+
 module.exports = {
+  // application
+  router: {
+    base: '/',
+  },
+  plugins: [
+    '~/plugins/device.js',
+  ],
+
+  // building
+  build: {
+    publicPath,
+    extend(config, { isDev, isClient }) {
+      // yaml
+      config.module.rules.push({
+        test: /\.ya?ml$/,
+        use: [
+          { loader: 'json-loader' },
+          { loader: 'yaml-loader' },
+        ],
+      })
+    }
+  },
+
+  // appearance / metadata
+  loading: false,
+  css: [
+    { src: '~assets/styles/index.styl', lang: 'stylus' },
+  ],
   head: {
     title: 'Megahertz',
     meta: [
@@ -6,7 +36,7 @@ module.exports = {
       { name: "viewport", content: "width=device-width, initial-scale=1.0" },
       { property: "og:title", content: "Megahertz" },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://ztrehagem.dev/" },
+      { property: "og:url", content: publicPath },
       { property: "og:image", content: "https://github.com/ztrehagem.png" },
       { property: "og:locale", content: "ja_JP" },
       { property: "og:site_name", content: "Megahertz" },
@@ -29,36 +59,5 @@ module.exports = {
         crossorigin: "anonymous",
       },
     ],
-  },
-  css: [
-    { src: '~assets/styles/index.styl', lang: 'stylus' },
-  ],
-  loading: false,
-  router: {
-    base: '/',
-    // mode: 'hash',
-  },
-  build: {
-    publicPath: 'https://ztrehagem.dev/',
-    extend (config, { isDev, isClient }) {
-      // eslint
-      if (isDev && isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-
-      // yaml
-      config.module.rules.push({
-        test: /\.ya?ml$/,
-        use: [
-          { loader: 'json-loader' },
-          { loader: 'yaml-loader' },
-        ],
-      })
-    }
   },
 }
