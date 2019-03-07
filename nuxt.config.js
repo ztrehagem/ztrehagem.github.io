@@ -6,7 +6,7 @@ module.exports = {
       { name: "viewport", content: "width=device-width, initial-scale=1.0" },
       { property: "og:title", content: "Megahertz" },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://ztrehagem.github.io/" },
+      { property: "og:url", content: "https://ztrehagem.dev/" },
       { property: "og:image", content: "https://github.com/ztrehagem.png" },
       { property: "og:locale", content: "ja_JP" },
       { property: "og:site_name", content: "Megahertz" },
@@ -39,7 +39,7 @@ module.exports = {
     // mode: 'hash',
   },
   build: {
-    publicPath: 'https://ztrehagem.github.io/',
+    publicPath: 'https://ztrehagem.dev/',
     extend (config, { isDev, isClient }) {
       // eslint
       if (isDev && isClient) {
