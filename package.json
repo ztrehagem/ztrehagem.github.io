@@ -1,30 +1,19 @@
 {
   "name": "ztrehagem.github.io",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
-  "author": "Shigeki Suwa <suwa.shigeki@gmail.com>",
   "private": true,
   "scripts": {
-    "deploy": "git subtree push --prefix dist origin master",
     "dev": "nuxt",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "build": "nuxt generate",
+    "deploy": "git subtree push --prefix dist origin master"
   },
-  "dependencies": {
+  "devDependencies": {
     "json-loader": "^0.5.7",
-    "nuxt": "^1.0.0",
+    "nuxt": "^2.4.5",
     "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "yaml-loader": "^0.5.0"
-  },
-  "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0"
   }
 }
