@@ -41,7 +41,7 @@ a.activity-item(:href="href", target="_blank")
       position absolute
       top 0
       right 0
-      background linear-gradient(to left, transparent 20%, rgba(255, 255, 255, 0.5) 60%, white)
+      background linear-gradient(to left, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.5) 60%, white)
       z-index 9
 
   .img
