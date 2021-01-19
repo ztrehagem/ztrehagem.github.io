@@ -30,7 +30,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
-  css: [],
+  css: ['~/assets/global.css'],
 
   plugins: [],
 
@@ -47,4 +47,10 @@ export default {
   srcDir: 'src',
 
   build: {},
+
+  publicRuntimeConfig: {
+    site: {
+      title,
+    },
+  },
 }
