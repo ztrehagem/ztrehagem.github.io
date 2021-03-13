@@ -1,8 +1,8 @@
 <template>
   <div>
     <ul class="flex">
-      <li v-for="breadcrumb in breadcrumbs" :key="breadcrumb.path" class="flex">
-        <span v-if="!breadcrumb.first" class="mx-2">/</span>
+      <li v-for="(breadcrumb, index) in breadcrumbs" :key="breadcrumb.path" class="flex">
+        <span v-if="index > 0" class="mx-2">/</span>
         <nuxt-link :to="breadcrumb.path">{{ breadcrumb.dir }}</nuxt-link>
       </li>
     </ul>
@@ -11,9 +11,15 @@
 
 <script lang="ts">
 import Vue from 'vue'
+
+interface Breadcrumb {
+  path: string
+  dir: string
+}
+
 export default Vue.extend({
   computed: {
-    breadcrumbs() {
+    breadcrumbs(): Breadcrumb[] {
       const dirs = this.$route.path === '/' ? [] : this.$route.path
         .replace(/^\//, '')
         .split('/')
@@ -22,18 +28,17 @@ export default Vue.extend({
         .map((dir, index) => dirs.slice(0, index + 1).join('/'))
         .map((path) => `/${path}`)
 
-      const breadcrumbs = paths.map((path, index) => ({
+      const breadcrumbs: Breadcrumb[] = paths.map((path, index) => ({
         path,
         dir: dirs[index],
       }))
 
-      const root = {
+      breadcrumbs.unshift({
         path: '/',
         dir: this.$config.site.title,
-        first: true,
-      }
+      })
 
-      return [root, ...breadcrumbs]
+      return breadcrumbs
     },
   },
 })

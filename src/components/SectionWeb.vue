@@ -1,9 +1,9 @@
 <template>
-  <div class="flex flex-col items-center space-y-16 pt-4 px-4 pb-16">
-    <section class="container space-y-4 leading-loose">
-      <h1 class="text-6xl font-bold">As A Web Application Developer</h1>
+  <div class="space-y-16">
+    <section class="space-y-8 leading-loose">
+      <h2 class="text-6xl font-bold leading-tight">As A Web Application Developer</h2>
 
-      <ul class="flex space-x-2">
+      <ul class="flex space-x-4">
         <li>
           <a href="https://github.com/ztrehagem">
             <link-text>GitHub</link-text>
@@ -21,23 +21,30 @@
         </li>
       </ul>
 
-      <p>WIP</p>
+      <p>Webアプリケーションフロントエンドの実装を得意としており、業務では主に JavaScript/TypeScript + Vue.js/Nuxt.js による環境構築～設計～実装を担当している。OpenAPI を利用したコード自動生成ツールの作成をはじめ、開発効率化への貢献も積極的に行っている。</p>
+      <p>CSSについても一通り理解があり、CSSアニメーションの実装や、カルーセルやアコーディオン等JSが絡んだ複雑なUIの実装も行う。</p>
+      <p>大学で学んだ知識や趣味で制作しているアプリケーションの経験から、サーバサイド・インフラ・ネットワーク等についても知識・経験があり、Webアプリケーション全体について議論することができる。</p>
 
-      <p>個人ウェブサイト・特設サイトをはじめ、様々なWebサービス開発に携わる。 クライアントサイド（JavaScript, CSS）を得意とする。</p>
+      <dl>
+        <dt class="font-bold underline">得意</dt>
+        <dd class="ml-4">JavaScript, TypeScript, Vue.js, Nuxt.js, Node.js, CSS3, Sass, Stylus, HTML5</dd>
 
-      <p>言語：JavaScript/TypeScript, CSS, HTML, Java, C/C++, Ruby, Go, Lisp(Scheme), Haskell</p>
+        <dt class="font-bold underline">まあ分かる</dt>
+        <dd class="ml-4">Java, C/C++, Swift, SwiftUI, Ruby, Ruby on Rails, Docker, Vagrant, DB/SQL, Firebase</dd>
 
-      <p>相棒：Vue.js, Nuxt.js, Node.js, Docker, ...</p>
+        <dt class="font-bold underline">触ったことはある</dt>
+        <dd class="ml-4">Go, Lisp(Scheme), Haskell, Lambda Calculus, GCP, Deno</dd>
+      </dl>
     </section>
 
-    <section class="container space-y-4 leading-loose">
-      <h2 class="text-3xl font-bold border-b border-solid border-dark">Websites</h2>
+    <section class="space-y-8 leading-loose">
+      <h3 class="text-3xl font-bold leading-tight border-b border-solid border-dark">Websites</h3>
 
       <ul class="flex flex-wrap -m-2">
         <li class="m-2">
           <a href="https://teikyou.com/" class="block">
             <figure>
-              <img src="https://teikyou.com/images/teikyou-dot-com.png" alt="thumbnail" class="h-64 w-auto max-w-full" />
+              <img src="~@/assets/images/thumbnails/teikyou-dot-com.png" alt="thumbnail" class="h-64 w-auto max-w-full" />
               <figcaption>テイキョウドットコム</figcaption>
             </figure>
           </a>
@@ -46,7 +53,7 @@
         <li class="m-2">
           <a href="https://elmina.net/" class="block">
             <figure>
-              <img src="https://elmina.net/ogp.png" alt="thumbnail" class="h-64 w-auto max-w-full" />
+              <img src="~@/assets/images/thumbnails/elmina-logo-bk.png" alt="thumbnail" class="h-64 w-auto max-w-full" />
               <figcaption>elmina.net</figcaption>
             </figure>
           </a>
@@ -56,8 +63,8 @@
       <p>その他、ポートフォリオサービス等に掲載しています。</p>
     </section>
 
-    <section class="container space-y-4 leading-loose">
-      <h2 class="text-3xl font-bold border-b border-solid border-dark">Libraries</h2>
+    <section class="space-y-8 leading-loose">
+      <h3 class="text-3xl font-bold leading-tight border-b border-solid border-dark">Libraries</h3>
 
       <ul class="list-disc pl-6 space-y-4">
         <li>
@@ -115,18 +122,33 @@
         </li>
       </ul>
     </section>
+
+    <section class="space-y-8 leading-loose">
+      <h3 class="text-3xl font-bold leading-tight border-b border-solid border-dark">Papers</h3>
+
+      <ul class="list-disc pl-6 space-y-4">
+        <li>
+          <dl>
+            <dt>Liquid：非同期一階関数による並行計算体系</dt>
+            <dd>情報処理学会第80回全国大会（2018年3月15日発表）</dd>
+            <dd>大会奨励賞受賞</dd>
+          </dl>
+        </li>
+
+        <li>
+          <dl>
+            <dt>Liquid: A concurrent calculus with declaring first-order asynchronous functions</dt>
+            <dd>Trends in Functional Programming 2018 (presented on June 11, 2018)</dd>
+          </dl>
+        </li>
+
+        <li>
+          <dl>
+            <dt>対話を行う分散ロボットによる迷子探索システム (クラウドネットワークロボット)</dt>
+            <dd>電子情報通信学会技術研究報告 = IEICE technical report : 信学技報 117(198):2017.9.1 p.19-24</dd>
+          </dl>
+        </li>
+      </ul>
+    </section>
   </div>
 </template>
-
-<script lang="ts">
-import Vue from 'vue'
-import LinkText from '../components/LinkText.vue'
-export default Vue.extend({
-  components: { LinkText },
-  head() {
-    return {
-      title: 'As A Web Application Developer',
-    }
-  },
-})
-</script>
