@@ -5,7 +5,7 @@
 
       <p class="flex items-center">
         <span class="material-icons text-xs">copyright</span>
-        <span class="text-xs ml-1">Shigeki Suwa</span>
+        <span class="text-xs ml-1 font-kanit">Shigeki Suwa</span>
       </p>
     </div>
   </div>

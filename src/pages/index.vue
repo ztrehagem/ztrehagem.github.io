@@ -29,10 +29,16 @@
       </ul>
     </nav>
 
-    <div class="mt-32 space-y-48">
-      <section-web id="as-a-web-application-developer" class="container -mt-10 pt-10" />
-      <section-music id="as-a-music-composer" class="container -mt-10 pt-10" />
-      <section-biography id="biography" class="container -mt-10 pt-10" />
+    <div class="container mt-32 space-y-48">
+      <div>
+        <section-web id="as-a-web-application-developer" class="-mt-12 pt-12" />
+      </div>
+      <div>
+        <section-music id="as-a-music-composer" class="-mt-12 pt-12" />
+      </div>
+      <div>
+        <section-biography id="biography" class="-mt-12 pt-12" />
+      </div>
     </div>
   </div>
 </template>

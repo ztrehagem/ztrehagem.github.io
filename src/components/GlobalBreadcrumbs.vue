@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ul class="flex">
+    <ul class="flex font-kanit">
       <li v-for="(breadcrumb, index) in breadcrumbs" :key="breadcrumb.path" class="flex">
         <span v-if="index > 0" class="mx-2">/</span>
         <nuxt-link :to="breadcrumb.path">{{ breadcrumb.dir }}</nuxt-link>

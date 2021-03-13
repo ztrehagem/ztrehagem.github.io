@@ -1,7 +1,7 @@
 <template>
   <div class="space-y-16">
     <section class="space-y-8 leading-loose">
-      <h2 class="text-6xl font-bold leading-tight">As A Web Application Developer</h2>
+      <h2 class="text-6xl leading-tight font-kanit">As A Web Application Developer</h2>
 
       <ul class="flex space-x-4">
         <li>
@@ -21,7 +21,7 @@
         </li>
         <li>
           <a href="https://slides.com/ztrehagem">
-            <link-text>Slids</link-text>
+            <link-text>Slides</link-text>
           </a>
         </li>
       </ul>
@@ -43,9 +43,9 @@
     </section>
 
     <section class="space-y-8 leading-loose">
-      <h3 class="text-3xl font-bold leading-tight border-b border-solid border-dark">Websites</h3>
+      <h3 class="text-3xl leading-tight font-kanit border-b border-solid border-dark">Websites</h3>
 
-      <ul class="flex flex-wrap -m-2">
+      <ul class="flex flex-wrap flex-col items-center sm:flex-row sm:items-start -m-2">
         <li class="m-2">
           <a href="https://teikyou.com/" class="block">
             <figure>
@@ -63,13 +63,22 @@
             </figure>
           </a>
         </li>
+
+        <li class="m-2">
+          <a href="https://ztrehagem.dev/" class="block">
+            <figure>
+              <img src="~@/assets/images/ztrehagem.png" alt="thumbnail" class="h-64 w-auto max-w-full" />
+              <figcaption>このサイト</figcaption>
+            </figure>
+          </a>
+        </li>
       </ul>
 
       <p>その他、ポートフォリオサービス等に掲載しています。</p>
     </section>
 
     <section class="space-y-8 leading-loose">
-      <h3 class="text-3xl font-bold leading-tight border-b border-solid border-dark">Libraries</h3>
+      <h3 class="text-3xl leading-tight font-kanit border-b border-solid border-dark">Libraries</h3>
 
       <ul class="list-disc pl-6 space-y-4">
         <li>
@@ -129,7 +138,7 @@
     </section>
 
     <section class="space-y-8 leading-loose">
-      <h3 class="text-3xl font-bold leading-tight border-b border-solid border-dark">Papers</h3>
+      <h3 class="text-3xl leading-tight font-kanit border-b border-solid border-dark">Papers</h3>
 
       <ul class="list-disc pl-6 space-y-4">
         <li>
