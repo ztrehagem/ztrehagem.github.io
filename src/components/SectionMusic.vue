@@ -26,29 +26,23 @@
     </section>
 
     <section class="space-y-8 leading-loose">
-      <h3 class="text-3xl font-bold leading-tight border-b border-solid border-dark">Discography</h3>
-
-      <ul class="flex flex-wrap -m-2">
-        <li class="m-2">
-          <a href="https://artist.landr.com/music/672985497658">
-            <figure>
-              <img src="~@/assets/images/thumbnails/discography-rebuild.png" alt="jacket" class="h-64 w-auto max-w-full">
-              <figcaption>Rebuild (2015)</figcaption>
-            </figure>
-          </a>
-        </li>
-      </ul>
-    </section>
-
-    <section class="space-y-8 leading-loose">
-      <h3 class="text-3xl font-bold leading-tight border-b border-solid border-dark">Produce</h3>
+      <h3 class="text-3xl font-bold leading-tight border-b border-solid border-dark">Activity</h3>
 
       <ul class="flex flex-wrap -m-2">
         <li class="m-2">
           <a href="https://elmina.net/" class="block">
             <figure>
-              <img src="~@/assets/images/thumbnails/elmina-logo-bk.png" alt="thumbnail" class="h-64 w-auto max-w-full" />
-              <figcaption>elmina (エルミナ)</figcaption>
+              <img src="~@/assets/images/thumbnails/elmina.png" alt="thumbnail" class="h-64 w-auto max-w-full" />
+              <figcaption>elmina</figcaption>
+            </figure>
+          </a>
+        </li>
+
+        <li class="m-2">
+          <a href="https://artist.landr.com/music/672985497658">
+            <figure>
+              <img src="~@/assets/images/thumbnails/discography-rebuild.png" alt="jacket" class="h-64 w-auto max-w-full">
+              <figcaption>Rious - Rebuild (2015)</figcaption>
             </figure>
           </a>
         </li>

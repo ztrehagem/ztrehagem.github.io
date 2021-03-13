@@ -1,15 +1,15 @@
 <template>
   <div class="flex flex-col items-stretch">
-    <header class="flex-none">
-      <global-header />
+    <header class="sticky top-0">
+      <global-header class="h-12" />
     </header>
 
-    <main class="flex-grow">
+    <main>
       <nuxt />
     </main>
 
-    <footer class="pt-10">
-      <global-footer class="fixed bottom-0 left-0 right-0 h-10" />
+    <footer>
+      <global-footer class="h-12" />
     </footer>
   </div>
 </template>

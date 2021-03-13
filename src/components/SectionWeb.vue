@@ -10,13 +10,18 @@
           </a>
         </li>
         <li>
-          <a href="https://gitlab.com/ztrehagem">
-            <link-text>GitLab</link-text>
+          <a href="https://note.ztrehagem.dev/">
+            <link-text>note.ztrehagem.dev</link-text>
           </a>
         </li>
         <li>
           <a href="https://qiita.com/ztrehagem">
             <link-text>Qiita</link-text>
+          </a>
+        </li>
+        <li>
+          <a href="https://slides.com/ztrehagem">
+            <link-text>Slids</link-text>
           </a>
         </li>
       </ul>
@@ -53,7 +58,7 @@
         <li class="m-2">
           <a href="https://elmina.net/" class="block">
             <figure>
-              <img src="~@/assets/images/thumbnails/elmina-logo-bk.png" alt="thumbnail" class="h-64 w-auto max-w-full" />
+              <img src="~@/assets/images/thumbnails/elmina.png" alt="thumbnail" class="h-64 w-auto max-w-full" />
               <figcaption>elmina.net</figcaption>
             </figure>
           </a>

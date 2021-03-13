@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col items-center px-4 border-b border-solid border-dark">
-    <div class="container flex items-center py-4">
+  <div class="flex flex-col justify-center items-center px-4 bg-smoke border-b border-solid border-dark">
+    <div class="container flex items-center">
       <nav>
         <global-breadcrumbs />
       </nav>
