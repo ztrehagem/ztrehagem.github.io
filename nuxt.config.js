@@ -47,10 +47,15 @@ export default {
     '@nuxt/typescript-build',
     '@nuxtjs/stylelint-module',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics',
   ],
 
   tailwindcss: {
     config: tailwindcssConfig,
+  },
+
+  googleAnalytics: {
+    id: 'UA-129758740-3',
   },
 
   modules: [],
