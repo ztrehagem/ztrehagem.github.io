@@ -21,18 +21,34 @@
         </li>
       </ul>
 
-      <p>トランス・ドラムンベースなど、シンセサウンドをメインとしたエレクトロニックな楽曲を得意とする。ボーカル編集・マスタリングなども行う。</p>
-      <p>音楽サークル『<a href="https://elmina.net/"><link-text>elmina</link-text></a>』主宰。</p>
+      <p>
+        トランス・ドラムンベースなど、シンセサウンドをメインとしたエレクトロニックな楽曲を得意とする。ボーカル編集・マスタリングなども行う。
+      </p>
+      <p>
+        音楽サークル『<a href="https://elmina.net/">
+          <link-text>elmina</link-text> </a
+        >』主宰。
+      </p>
     </section>
 
     <section class="space-y-8 leading-loose">
-      <h3 class="text-3xl leading-tight font-kanit border-b border-solid border-dark">Activity</h3>
+      <h3
+        class="text-3xl leading-tight font-kanit border-b border-solid border-dark"
+      >
+        Activity
+      </h3>
 
-      <ul class="flex flex-wrap flex-col items-center sm:flex-row sm:items-start -m-2">
+      <ul
+        class="flex flex-wrap flex-col items-center sm:flex-row sm:items-start -m-2"
+      >
         <li class="m-2">
           <a href="https://elmina.net/" class="block">
             <figure>
-              <img src="~@/assets/images/thumbnails/elmina.png" alt="thumbnail" class="h-64 w-auto max-w-full" />
+              <img
+                src="~@/assets/images/thumbnails/elmina.png"
+                alt="thumbnail"
+                class="h-64 w-auto max-w-full"
+              />
               <figcaption>elmina</figcaption>
             </figure>
           </a>
@@ -41,7 +57,11 @@
         <li class="m-2">
           <a href="https://artist.landr.com/music/672985497658">
             <figure>
-              <img src="~@/assets/images/thumbnails/discography-rebuild.png" alt="jacket" class="h-64 w-auto max-w-full">
+              <img
+                src="~@/assets/images/thumbnails/discography-rebuild.png"
+                alt="jacket"
+                class="h-64 w-auto max-w-full"
+              />
               <figcaption>Rious - Rebuild (2015)</figcaption>
             </figure>
           </a>

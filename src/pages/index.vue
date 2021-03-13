@@ -7,21 +7,30 @@
     <nav class="mt-24">
       <ul class="flex flex-col space-y-4">
         <li>
-          <nuxt-link to="#as-a-web-application-developer" class="align-middle inline-flex items-center">
+          <nuxt-link
+            to="#as-a-web-application-developer"
+            class="align-middle inline-flex items-center"
+          >
             <span class="material-icons">chevron_right</span>
             <link-text>As A Web Application Developer</link-text>
           </nuxt-link>
         </li>
 
         <li>
-          <nuxt-link to="#as-a-music-composer" class="align-middle inline-flex items-center">
+          <nuxt-link
+            to="#as-a-music-composer"
+            class="align-middle inline-flex items-center"
+          >
             <span class="material-icons">chevron_right</span>
             <link-text>As A Music Composer</link-text>
           </nuxt-link>
         </li>
 
         <li>
-          <nuxt-link to="#biography" class="align-middle inline-flex items-center">
+          <nuxt-link
+            to="#biography"
+            class="align-middle inline-flex items-center"
+          >
             <span class="material-icons">chevron_right</span>
             <link-text>Biography</link-text>
           </nuxt-link>

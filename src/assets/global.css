@@ -1,10 +1,10 @@
 :root {
-  --color-black: #000000;
-  --color-white: #ffffff;
+  --color-black: #000;
+  --color-white: #fff;
   --color-dark: #3c3c3c;
   --color-water: #4ca1e6;
   --color-smoke: #f8f8f8;
-  --color-muted: #999999;
+  --color-muted: #999;
 }
 
 html {

@@ -10,11 +10,11 @@ module.exports = {
     },
 
     fontFamily: {
-      'kanit': ['Kanit', 'sans-serif'],
+      kanit: ['Kanit', 'sans-serif'],
     },
 
     boxShadow: {
       'shrink-lg': '0 48px 32px -32px var(--color-dark)',
     },
-  }
+  },
 }
