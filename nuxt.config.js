@@ -1,3 +1,5 @@
+import * as tailwindcssConfig from './tailwind.config'
+
 const publicPath = process.env.PUBLIC_PATH ?? 'https://ztrehagem.dev/'
 const title = 'ztrehagem.dev'
 const description = 'a portfolio'
@@ -6,7 +8,7 @@ export default {
   target: 'static',
 
   head: {
-    title,
+    titleTemplate: (str) => str ? `${str} - ztrehagem.dev` : 'ztrehagem.dev',
     htmlAttrs: {
       lang: 'ja',
     },
@@ -27,7 +29,10 @@ export default {
       { name: 'msapplication-navbutton-color', content: '#3C3C3C' },
       { name: 'apple-mobile-web-app-status-bar-style', content: '#3C3C3C' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { href: 'https://fonts.googleapis.com/icon?family=Material+Icons', rel: 'stylesheet' },
+    ],
   },
 
   css: ['~/assets/global.css'],
@@ -41,6 +46,10 @@ export default {
     '@nuxtjs/stylelint-module',
     '@nuxtjs/tailwindcss',
   ],
+
+  tailwindcss: {
+    config: tailwindcssConfig,
+  },
 
   modules: [],
 

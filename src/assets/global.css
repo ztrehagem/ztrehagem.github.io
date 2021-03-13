@@ -1,3 +1,15 @@
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-dark: #3c3c3c;
+  --color-water: #4682b4;
+  --color-smoke: #f8f8f8;
+  --color-muted: #999999;
+}
+
 body {
   line-height: 1;
+  font-family: sans-serif;
+  color: var(--color-dark);
+  background: var(--color-smoke);
 }

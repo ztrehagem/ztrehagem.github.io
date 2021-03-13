@@ -1,12 +1,12 @@
 <template>
-  <nav>
+  <div>
     <ul class="flex">
       <li v-for="breadcrumb in breadcrumbs" :key="breadcrumb.path" class="flex">
         <span v-if="!breadcrumb.first" class="mx-2">/</span>
         <nuxt-link :to="breadcrumb.path">{{ breadcrumb.dir }}</nuxt-link>
       </li>
     </ul>
-  </nav>
+  </div>
 </template>
 
 <script lang="ts">
